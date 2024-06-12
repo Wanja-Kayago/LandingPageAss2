@@ -1,12 +1,7 @@
-#container{
-    border: solid purple;
-    background-color: purple;
-    
-}
 #landingpage{
     background-color:#FACFCC;
     margin: 50px;
-    border: solid #FACFCC;
+    border: solid black;
     border-radius: 50px;
 }
 #navbar{
@@ -14,33 +9,60 @@
     justify-content: space-around;
     margin-top: 70px;
 }
-#firstpart{
+.baims{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#inputfield{
     display: flex;
   gap: 100px;
   margin-right: 400px;
 }
-#secondpart{
+#calltoaction{
     display: flex;
-    gap: 100px;
-    margin-right: 50px;
+    gap: 50px;
 }
-#button{
+.button{
     border: solid black;
+    background-color: #FACFCC;
     height: 50px;
     border-radius: 20px;
     width: 300px;
     text-align: center;
 }
-#button1{
-    border: solid black;
-    background-color: black;
+.button1{
+    border-radius: 10px;
+    height: 50px;
+    width: 80px;
+    background-color: #FACFCC;
+    border: solid #FACFCC;
+}
+#search{
+    color: gray;
+    position: absolute;
+    top: 7%; 
+    left: 30.7%; 
+    text-align: center;
+    cursor: pointer;
+   }
+.button2{
+    border: solid;
+background-color: black;
     color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+.button3{
+    border: solid black;
+    background-color: white;
+    color: black;
     height: 50px;
     border-radius: 20px;
-    width: 80px;
+    width: 300px;
     text-align: center;
 }
-#section{
+#hero{
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
@@ -50,19 +72,15 @@
     margin-top: 50px;
     font-size: xx-large;
 }
+.words{
+    font-size: medium;
+}
 #img{
  width: 700px;
  border-radius: 50px;
  height: 500px;
 }
-#button3{
-    border: solid black;
-    width: 500px;
-    height: 80px;
-    text-align:center ;
-    border-radius: 50px;
-}
-#section1{
+#footer{
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -70,17 +88,100 @@
     height: 200px;
    border-radius: 50px;
 }
-@media all and (min-width:280px) and (max-width:1030px){
-    #container{
-        border: solid purple;
-        background-color: purple;
-        
-    }
+@media all and (min-width:320px) and (max-width:480px){
     #landingpage{
         background-color:#FACFCC;
         margin: 5px;
+        border: solid black;
+        border-radius: 10px;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .baims{
+        font-weight: bolder;
+        font-size:medium;
+    }
+    #inputfield{
+        display: flex;
+      gap: 10px;
+      margin-right: 40px;
+      flex-wrap: wrap;
+    }
+    #calltoaction{
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .button{
+        border: solid black;
+        background-color: #FACFCC;
+        height: 20px;
+        border-radius: 10px;
+        width: 50px;
+        text-align: center;
+    }
+    .button1{
+        border-radius: 10px;
+        height: 20px;
+        width: 80px;
+        background-color: #FACFCC;
         border: solid #FACFCC;
-        border-radius: 50px;
+    }
+    .button2{
+        border: solid;
+    background-color: black;
+        color: white;
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .button3{
+        border: solid black;
+        background-color: white;
+        color: black;
+        height: 20px;
+        border-radius: 20px;
+        width: 50px;
+        text-align: center;
+    }
+    #hero{
+        display: flex;
+        margin-top: 50px;
+    }
+    #left{
+        align-items: center;
+        margin-top: 10px;
+        font-size: small;
+    }
+    .words{
+        font-size: x-small;
+    }
+    #img{
+     width: 150px;
+     border-radius: 50px;
+     height: 150px;
+    }
+    #footer{
+        background-color: white;
+        display: flex;
+        gap: 1px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        height: 100px;
+       border-radius: 50px;
+       font-size: x-small;
+    }
+}
+@media all and (min-width:481px) and (max-width:768px){
+    #landingpage{
+        background-color:#FACFCC;
+        margin: 50px;
+        border: solid black;
+        border-radius: 10px;
     }
     #navbar{
         display: flex;
@@ -88,64 +189,167 @@
         justify-content: space-around;
         margin-top: 30px;
     }
-    #firstpart{
+    .baims{
+        font-weight: bolder;
+        font-size:medium;
+    }
+    #inputfield{
         display: flex;
       gap: 20px;
-      margin-right: 10px;
+      margin-right: 40px;
       flex-wrap: wrap;
     }
-    #secondpart{
+    #calltoaction{
         display: flex;
+        gap: 10px;
         flex-wrap: wrap;
-        gap: 20px;
-        margin-right: 10px;
     }
-    #button{
+    .button{
         border: solid black;
-        height: 60px;
-        border-radius: 20px;
-        width: 110px;
+        background-color: #FACFCC;
+        height: 20px;
+        border-radius: 10px;
+        width: 100px;
         text-align: center;
     }
-    #button1{
-        border: solid black;
-        background-color: black;
-        color: white;
-        height: 50px;
-        border-radius: 20px;
+    .button1{
+        border-radius: 10px;
+        height: 20px;
         width: 80px;
+        background-color: #FACFCC;
+        border: solid #FACFCC;
+    }
+    .button2{
+        border: solid;
+    background-color: black;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .button3{
+        border: solid black;
+        background-color: white;
+        color: black;
+        height: 20px;
+        border-radius: 20px;
+        width: 100px;
         text-align: center;
     }
-    #section{
+    #hero{
         display: flex;
-        flex-wrap: wrap;
-        gap: 1px;
         margin-top: 50px;
     }
     #left{
-        margin-right: 5px;
-        margin-top: 50px;
-        font-size: x-small;
+        align-items: center;
+        margin-top: 10px;
+        font-size: medium;
+    }
+    .words{
+        font-size: small;
     }
     #img{
      width: 200px;
-     height: 100px;
-     border-radius: 10px;
+     border-radius: 50px;
+     height: 200px;
     }
-    #button3{
-        border: solid black;
-        width: 50px;
-        height: 50px;
-        text-align:center ;
-        border-radius: 10px;
-    }
-    #section1{
+    #footer{
         background-color: white;
         display: flex;
+        gap: 1px;
         flex-wrap: wrap;
-        gap: 50 px;
-        margin-top: 100px;
-        height: 250px;
+        margin-top: 50px;
+        height: 100px;
        border-radius: 50px;
-    }   
+       font-size: medium;
+    }
+}
+
+@media all and (min-width:769px) and (max-width:1024px){
+    #landingpage{
+        background-color:#FACFCC;
+        margin: 50px;
+        border: solid black;
+        border-radius: 10px;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .baims{
+        font-weight: bolder;
+        font-size:medium;
+    }
+    #inputfield{
+        display: flex;
+      gap: 20px;
+      margin-right: 40px;
+      flex-wrap: wrap;
+    }
+    #calltoaction{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .button{
+        border: solid black;
+        background-color: #FACFCC;
+        height: 20px;
+        border-radius: 10px;
+        width: 100px;
+        text-align: center;
+    }
+    .button1{
+        border-radius: 10px;
+        height: 20px;
+        width: 80px;
+        background-color: #FACFCC;
+        border: solid #FACFCC;
+    }
+    .button2{
+        border: solid;
+    background-color: black;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .button3{
+        border: solid black;
+        background-color: white;
+        color: black;
+        height: 20px;
+        border-radius: 20px;
+        width: 100px;
+        text-align: center;
+    }
+    #hero{
+        display: flex;
+        margin-top: 50px;
+    }
+    #left{
+        align-items: center;
+        margin-top: 10px;
+        font-size: medium;
+    }
+    .words{
+        font-size: small;
+    }
+    #img{
+     width: 200px;
+     border-radius: 50px;
+     height: 200px;
+    }
+    #footer{
+        background-color: white;
+        display: flex;
+        gap: 1px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        height: 100px;
+       border-radius: 50px;
+       font-size: medium;
+    }
 }
